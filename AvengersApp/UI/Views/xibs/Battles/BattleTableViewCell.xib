@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="179" id="KGk-i7-Jjw" customClass="BattleTableViewCell" customModule="AvengersApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="179"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2ng-qV-HKN">
+                        <rect key="frame" x="10" y="37" width="110" height="113"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="pG5-ii-Ik1"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_battle_round" translatesAutoresizingMaskIntoConstraints="NO" id="Lgo-jD-l71">
+                        <rect key="frame" x="128" y="55" width="108" height="82"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="108" id="UXk-Qz-re0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rhi-wF-1bk">
+                        <rect key="frame" x="10" y="8" width="377" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Syg-5p-4DP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h4o-07-jNd">
+                        <rect key="frame" x="244" y="37" width="110" height="113"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="JIQ-3z-pce"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Lgo-jD-l71" firstAttribute="top" secondItem="Rhi-wF-1bk" secondAttribute="bottom" constant="26" id="7Pt-sQ-NTC"/>
+                    <constraint firstAttribute="trailing" secondItem="Rhi-wF-1bk" secondAttribute="trailing" constant="10" id="HWu-Vg-nL4"/>
+                    <constraint firstAttribute="bottom" secondItem="2ng-qV-HKN" secondAttribute="bottom" constant="29" id="K2C-D0-CuP"/>
+                    <constraint firstItem="2ng-qV-HKN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="K8h-Y8-UnR"/>
+                    <constraint firstItem="h4o-07-jNd" firstAttribute="top" secondItem="Rhi-wF-1bk" secondAttribute="bottom" constant="8" id="MOf-DJ-iRv"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Lgo-jD-l71" secondAttribute="bottom" constant="31" id="Sgl-2z-gqh"/>
+                    <constraint firstItem="2ng-qV-HKN" firstAttribute="top" secondItem="Rhi-wF-1bk" secondAttribute="bottom" constant="8" id="Z0s-sW-kpj"/>
+                    <constraint firstItem="Rhi-wF-1bk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="fh2-Ei-qr0"/>
+                    <constraint firstItem="Lgo-jD-l71" firstAttribute="leading" secondItem="2ng-qV-HKN" secondAttribute="trailing" constant="8" id="mFo-Lh-wjl"/>
+                    <constraint firstAttribute="bottom" secondItem="h4o-07-jNd" secondAttribute="bottom" constant="29" id="ox9-cu-yRh"/>
+                    <constraint firstItem="h4o-07-jNd" firstAttribute="leading" secondItem="Lgo-jD-l71" secondAttribute="trailing" constant="8" id="qIj-4e-cAy"/>
+                    <constraint firstItem="Rhi-wF-1bk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="rSf-tw-CFf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="OponenteDos" destination="h4o-07-jNd" id="nuD-rK-Ji4"/>
+                <outlet property="battleID" destination="Rhi-wF-1bk" id="KLk-3Z-hiw"/>
+                <outlet property="oponenteUno" destination="2ng-qV-HKN" id="0mW-Zp-SVK"/>
+            </connections>
+            <point key="canvasLocation" x="110.86956521739131" y="82.03125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_battle_round" width="512" height="512"/>
+    </resources>
+</document>

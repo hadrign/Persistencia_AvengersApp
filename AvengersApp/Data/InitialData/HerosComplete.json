@@ -1,0 +1,53 @@
+[
+    {
+        "nombre": "Capitán América",
+        "poder": 5,
+        "descripcion": "El Capitán América viste un traje que lleva un motivo de la bandera de los Estados Unidos, y utiliza un escudo casi indestructible que lanza como proyectil. El personaje es generalmente representado como el álter ego de Steve Rogers, un joven frágil mejorado a la cima de la perfección humana por un suero experimental para ayudar a los esfuerzos inminentes del gobierno de Estados Unidos en la Segunda Guerra Mundial.",
+        "imagen": "img_heroe_america_captain"},
+    {
+        "nombre": "Black Panther",
+        "poder": 5,
+        "descripcion": "Pantera Negra es un rango de cargo, jefe del Clan de la Pantera de Wakanda. Como jefe, la Pantera tiene derecho a comer una hierba especial en forma de corazón que le otorga sentidos sobrehumanos agudos, fuerza mejorada, velocidad, agilidad, resistencia, durabilidad, curación y reflejos",
+        "imagen": "img_heroe_black_panther"},
+    {
+        "nombre": "Black Widow",
+        "poder": 5,
+        "descripcion": "La Viuda Negra ha sido mejorada por la biotecnología que hace que su cuerpo sea resistente al envejecimiento y las enfermedades y se recupera por encima de la tasa humana, así como el condicionamiento psicológico que suprime su memoria de los eventos verdaderos en lugar de los implantados del pasado sin la ayuda de medicamentos supresores del sistema especialmente diseñados.",
+        "imagen": "img_heroe_black_widow"},
+    {
+        "nombre": "Dr Strange",
+        "poder": 5,
+        "descripcion": "Stephen carece realmente de verdaderos Superpoderes, en su lugar posee vastos poderes místicos (teletransportación, generación de ilusiones, proyección de energía), cuyo nivel puede compararse a las de algunas entidades cósmicas. Sus fuentes principales son la energía mística ambiental y las derivados de la Mente, el Alma y el cuerpo, pero puede obtener poder adicional por entidades místicas con quienes haya hecho tratos, además de poder invocar algunos de sus poderes, como las llamas de los Faltine, las bandas carmesíes de Cyttorak y el escudo de los serafin.",
+        "imagen": "img_heroe_dr_strange"},
+    {
+        "nombre": "Gamora",
+        "poder": 5,
+        "descripcion": "Gamora recibió tratamientos de Thanos que aumentaron su velocidad, fuerza, agilidad y resistencia para igualar sus habilidades a las de Adam Warlock (mejor dicho, para asesinar a Magus, su versión malvada del futuro). Thanos también la ayudó a convertirse en una formidable combatiente cuerpo a cuerpo, entrenada en las artes marciales de diferentes planetas, en el uso de las armas conocidas en la Vía Láctea, y en las técnicas de sigilo.",
+        "imagen": "img_heroe_gamora"},
+    {
+        "nombre": "Hulk",
+        "poder": 5,
+        "descripcion": "Hulk posee el potencial de una fuerza física aparentemente ilimitada que está influenciada por su estado emocional, particularmente su ira.61​Esto se ha reflejado en el comentario repetido: Cuanto más loco se pone Hulk, más fuerte se pone Hulk",
+        "imagen": "img_heroe_hulk"},
+    {
+        "nombre": "Ironman",
+        "poder": 5,
+        "descripcion": "Iron Man posee una armadura motorizada que le da fuerza y durabilidad sobrehumanas, vuelo y una gran variedad de armas. La armadura es inventada y usada por Stark",
+        "imagen": "img_heroe_ironman"},
+    {
+        "nombre": "Capitana Marvel",
+        "poder": 5,
+        "descripcion": "Carol Danvers inicialmente poseía niveles sobrehumanos de fuerza, resistencia,y durabilidad física, así como vuelo, un precognitivo sexto sentido limitado, y una fisiología humana / Kree perfectamente amalgamada que la hacía resistente a la mayoría de toxinas y venenos. Como Binaria, el personaje podía aprovechar la energía de un agujero blanco, permitiendo el control total sobre las energías estelares, y por tanto, el control sobre el calor, el espectro electromagnético y la gravedad. Viajes a la velocidad de la luz y la habilidad de sobrevivir en el vacío del espacio también eran posibles.",
+        "imagen": "img_heroe_marvel_captain"},
+    {
+        "nombre": "Spiderman",
+        "poder": 5,
+        "descripcion": "Tras ser mordido por una araña radiactiva, obtuvo los siguientes poderes sobrehumanos: una gran fuerza agilidad, poder trepar por paredes y un sentido arácnido que le permite saber si el peligro se cierne sobre él",
+        "imagen": "img_heroe_spiderman"},
+    {
+        "nombre": "Thor",
+        "poder": 5,
+        "descripcion": "Como todos los asgardianos, Thor tiene una vida increíblemente larga y depende del consumo periódico de las Golden Apples de Idunn para mantener su vida útil extendida, que hasta la fecha ha durado muchos milenios. Como hijo de Odín y Frigga, Thor es físicamente el más fuerte de los asgardianos. Thor posee una resistencia muy alta a las lesiones físicas que se aproxima a la invulnerabilidad. Como dios nórdico del trueno, Thor puede invocar los elementos de la tormenta",
+        "imagen": "img_heroe_thor"
+    }
+]

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="248" id="Xf1-jY-5CZ" customClass="VillanoTableViewCell" customModule="AvengersApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="248"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xf1-jY-5CZ" id="4hQ-Zy-MYz">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="248"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r0g-WF-ERd">
+                        <rect key="frame" x="61" y="16" width="248" height="141"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="248" id="3Oy-pI-xZU"/>
+                            <constraint firstAttribute="height" constant="141" id="Zdl-SV-TdU"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZK-nY-g2X">
+                        <rect key="frame" x="163" y="172" width="44.5" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Mqv-pi-9Ux"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SlN-jW-iua">
+                        <rect key="frame" x="105" y="201" width="160" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="D2V-su-CBm"/>
+                            <constraint firstAttribute="height" constant="24" id="mOn-n4-F7p"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="r0g-WF-ERd" firstAttribute="centerX" secondItem="4hQ-Zy-MYz" secondAttribute="centerX" id="GUG-Fq-9m0"/>
+                    <constraint firstItem="xZK-nY-g2X" firstAttribute="top" secondItem="r0g-WF-ERd" secondAttribute="bottom" constant="15" id="HR6-Kc-Njz"/>
+                    <constraint firstItem="SlN-jW-iua" firstAttribute="top" secondItem="xZK-nY-g2X" secondAttribute="bottom" constant="8" id="Tyf-O8-NVq"/>
+                    <constraint firstItem="SlN-jW-iua" firstAttribute="top" secondItem="xZK-nY-g2X" secondAttribute="bottom" constant="8" id="XNJ-dk-0Hh"/>
+                    <constraint firstItem="xZK-nY-g2X" firstAttribute="centerX" secondItem="4hQ-Zy-MYz" secondAttribute="centerX" id="YR0-sb-cSi"/>
+                    <constraint firstItem="r0g-WF-ERd" firstAttribute="top" secondItem="4hQ-Zy-MYz" secondAttribute="top" constant="16" id="k04-GE-uUt"/>
+                    <constraint firstItem="xZK-nY-g2X" firstAttribute="top" secondItem="r0g-WF-ERd" secondAttribute="bottom" constant="15" id="lWw-k0-f1j"/>
+                    <constraint firstItem="SlN-jW-iua" firstAttribute="centerX" secondItem="4hQ-Zy-MYz" secondAttribute="centerX" id="qYb-hb-j2d"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="SlN-jW-iua" secondAttribute="bottom" constant="12" id="rSc-RS-KA6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="lsW-yG-FlU"/>
+            <connections>
+                <outlet property="imageVillano" destination="r0g-WF-ERd" id="IYX-O9-AfX"/>
+                <outlet property="nameVillano" destination="xZK-nY-g2X" id="2Vc-eN-ukD"/>
+                <outlet property="power" destination="SlN-jW-iua" id="d5y-sc-9em"/>
+            </connections>
+            <point key="canvasLocation" x="121.73913043478262" y="28.794642857142854"/>
+        </tableViewCell>
+    </objects>
+</document>

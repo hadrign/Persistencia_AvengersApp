@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Battle" representedClassName="Battle" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="winner" optional="YES" attributeType="String"/>
+        <relationship name="adversaryOne" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hero" inverseName="battle" inverseEntity="Hero"/>
+        <relationship name="adversaryTwo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Villain" inverseName="battle" inverseEntity="Villain"/>
+    </entity>
+    <entity name="Hero" representedClassName="Hero" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="imagen" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="poder" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="battle" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Battle" inverseName="adversaryOne" inverseEntity="Battle"/>
+    </entity>
+    <entity name="Villain" representedClassName="Villain" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="imagen" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="poder" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="battle" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Battle" inverseName="adversaryTwo" inverseEntity="Battle"/>
+    </entity>
+    <elements>
+        <element name="Battle" positionX="-338.796875" positionY="69.29296875" width="128" height="103"/>
+        <element name="Hero" positionX="-55.44140625" positionY="-157.1953125" width="128" height="118"/>
+        <element name="Villain" positionX="46.17578125" positionY="59.5703125" width="128" height="118"/>
+    </elements>
+</model>

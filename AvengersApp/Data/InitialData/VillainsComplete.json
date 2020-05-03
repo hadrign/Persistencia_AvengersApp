@@ -1,0 +1,53 @@
+[
+    {
+        "nombre": "Yon Rogg",
+        "poder": 5,
+        "descripcion": "on-Rogg tiene súper fuerza, agilidad y resistencia. También es bueno en el combate desarmado.",
+        "imagen": "img_heroe_yon_rogg"},
+    {
+        "nombre": "Dormammu",
+        "poder": 5,
+        "descripcion": "Dormammu nació en una dimensión altamente violenta y con guerras constantes: se especializó en una forma de combate de esta dimensión, y como es una entidad hecha de pura energía mística posee grandes poderes mágicos",
+        "imagen": "img_villain_dormammu"},
+    {
+        "nombre": "Ego",
+        "poder": 5,
+        "descripcion": "Ego es excepcionalmente inteligente, aunque, como su nombre lo indica, alberga un complejo de superioridad extremo y puede ser emocional si se frustra. También posee grandes habilidades paranormales, y puede proyectar ráfagas lo suficientemente poderosas como para destruir otros mundos",
+        "imagen": "img_villain_ego"},
+    {
+        "nombre": "Hela",
+        "poder": 5,
+        "descripcion": "Hela posee atributos comunes a los dioses asgardianos. Posee fuerza, velocidad, agilidad y resistencia sobrehumanas. Cuando lleva su capa, es mucho más fuerte que la gran mayoría de su raza. Su gran fuerza le ha permitido entrar en combate cuerpo a cuerpo sostenido con Thor. Como todos los asgardianos tiene resistencia a la magia.",
+        "imagen": "img_villain_hela"},
+    {
+        "nombre": "Ivan Vanko",
+        "poder": 5,
+        "descripcion": "lleva dos guanteletes que contienen tres cables retráctiles parecidos a unos látigos de acero en cada brazo. Cada cable puede ampliarse una longitud máxima de aproximadamente 8 metros y posee lengüetas con finísimas agujas de adamantium en las puntas. También lleva un traje acolchado de aleación sintética y kevlar, un acolchado de hombros de cuero, una coraza de acero y la máscara, que proporcionan protección frente a lesiones.",
+        "imagen": "img_villain_ivan_vanko"},
+    {
+        "nombre": "Johann Schmidt",
+        "poder": 5,
+        "descripcion": "Aunque no tiene habilidades sobrehumanas, Cráneo Rojo posee un gran intelecto y genio inventivo y es un estratega subversivo y político altamente dotado",
+        "imagen": "img_villain_johann_schmidt"},
+    {
+        "nombre": "Malekith",
+        "poder": 5,
+        "descripcion": "Malekith tiene todos los atributos normales de un miembro de la raza de los elfos oscuros, aunque sus habilidades son el resultado de un desarrollo superior al promedio. Posee intelecto sobrehumano, fuerza, velocidad, resistencia, durabilidad, agilidad y reflejos. Como un elfo oscuro, Malekith también tiene la capacidad de manipular las fuerzas de la magia para una variedad de efectos",
+        "imagen": "img_villain_malekith"},
+    {
+        "nombre": "Ronan",
+        "poder": 5,
+        "descripcion": "Ronan posee una fuerza sobrehumana, resistencia, velocidad y reflejos, que son mejorados por aparatos en su traje de armadura exoesqueleto de cuerpo completo. Ronan también tiene dispositivos en su armadura que crean campos de invisibilidad y dispositivos en sus guantes que generan suficiente frío para colocar ciertas formas de vida en un estado de animación suspendida. ",
+        "imagen": "img_villain_ronan"},
+    {
+        "nombre": "Thanos",
+        "poder": 5,
+        "descripcion": "Thanos es un miembro mutante de la raza de superhumanos conocidos como los Eternos de Titán. El personaje posee habilidades comunes a los Eternos, pero se amplifica en mayor grado a través de una combinación de su patrimonio mutante-Eterno, amplificación biónica, misticismo y poder otorgado por la entidad abstracta, la Muerte. Demostrando una enorme fuerza sobrehumana, resistencia y durabilidad, Thanos puede absorber y proyectar grandes cantidades de energía cósmica y es capaz de usar telequinesis, telepatía y manipulación de la materia",
+        "imagen": "img_villain_thanos"},
+    {
+        "nombre": "Ultron",
+        "poder": 5,
+        "descripcion": "La apariencia visual y los poderes de Ultron han variado, pero sus poderes comunes incluyen niveles sobrehumanos de fuerza, velocidad, resistencia, durabilidad y reflejos; vuelo a velocidades subsónicas; varias armas ofensivas como rayos concusivos de energía (encéfalo-rayo), disparados de sus manos y sus sensores ópticos, además de un rayo encefalopático, el cual sitúa a sus víctimas en un estado de coma semejante a la muerte",
+        "imagen": "img_villain_ultron"
+    }
+]
